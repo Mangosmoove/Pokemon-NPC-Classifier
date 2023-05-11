@@ -4,6 +4,7 @@ When we first got together as a group, we searched for an online database that c
 The Trainers database contains the following fields: Class, Pkmn1, Pkmn2, Pkmn3, Pkmn4, Pkmn5, Pkmn6. The ‘Class’ field represents the trainer class of a given NPC as a string. Pkmn1 through Pkmn6 represent an individual pokemon as a string and together one row represents one team. Some rows may contain ‘nan’ values because many NPCs do not have 6 pokemon. 
 
 The Pokemon database contains the following fields after cleaning:
+
 --abilities: the abilities a pokemon can possess, stored as a list
 
 --against_?: an integer value that represents if the given pokemon is super effective against, weak against, or has no effect on specified type pokemon. There are 18 fields that represent this for various types
